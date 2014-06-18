@@ -39,4 +39,9 @@ public class FaceCglib implements MethodInterceptor {
 		
 	}
 	
+	private void cc(){
+		
+		System.out.println();
+	}
+	
 }
