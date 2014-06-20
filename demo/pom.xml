@@ -24,12 +24,46 @@
 	</dependencies>
 	<modules>
 		<module>DynamicProxy</module>
-    <module>TestJunitThread</module>
+		<!-- <module>TestJunitThread</module> -->
+		<module>CommandPattern</module>
+		<module>SingletonPattern</module>
+		<module>FacttoryPattern</module>
+		<module>BuilderPattern</module>
+		<module>PrototypePattern</module>
+		<module>AdapterPattern</module>
+		<module>DecoratorPattern</module>
+		<module>FacadePattern</module>
+		<module>CompositePattern</module>
+		<module>FlyweightPattern</module>
+		<module>StrategyPattern</module>
+		<module>ObserverPattern</module>
+		<module>TemplateMedthod</module>
+		<module>ChainOfResponsibilityPattern</module>
+		<module>MementoPattern</module>
+		<module>StatePattern</module>
+    <module>VisitorPattern</module>
+    <module>MediatorPattern</module>
+    <module>InterpreterPattern</module>
   </modules>
 	<scm>
-		<connection>scm:git:https://github.com/awphunter/demo
- 		</connection>
-		<developerConnection>https://github.com/awphunter/demo</developerConnection>
+		<connection>scm:https://github.com/awphunter/demo</connection>
+		<developerConnection>scm:https://github.com/awphunter/demo</developerConnection>
 		<url>https://github.com/awphunter/demo</url>
 	</scm>
+	<issueManagement>
+		<system>github</system>
+		<url>https://github.com/awphunter/demo/issues</url>
+	</issueManagement>
+	<build>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+			<resource>
+				<directory>src/main/java</directory>
+			</resource>
+		</resources>
+
+	</build>
+
 </project>
